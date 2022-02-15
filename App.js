@@ -13,7 +13,7 @@ import Animacion2 from './components/Animacion2';
 import Animacion3 from './components/Animacion3';
 import Animacion4 from './components/Animacion4';
 import Animacion5 from './components/Animacion5';
-
+import Animacion6 from './components/Animacion6';
 const App = () => {
 
   return (
@@ -38,6 +38,10 @@ const App = () => {
 
         <View style={styles.animacion}>
           <Animacion5/>
+        </View>
+
+        <View style={styles.animacion}>
+          <Animacion6/>
         </View>
         
       </View>
