@@ -11,6 +11,8 @@ import {
 import Animacion1 from './components/Animacion1';
 import Animacion2 from './components/Animacion2';
 import Animacion3 from './components/Animacion3';
+import Animacion4 from './components/Animacion4';
+import Animacion5 from './components/Animacion5';
 
 const App = () => {
 
@@ -28,6 +30,14 @@ const App = () => {
 
         <View style={styles.animacion}>
           <Animacion3/>
+        </View>
+
+        <View style={styles.animacion}>
+          <Animacion4/>
+        </View>
+
+        <View style={styles.animacion}>
+          <Animacion5/>
         </View>
         
       </View>
