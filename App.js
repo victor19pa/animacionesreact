@@ -9,15 +9,22 @@ import {
   View,
 } from 'react-native';
 import Animacion1 from './components/Animacion1';
+import Animacion2 from './components/Animacion2';
 
 const App = () => {
 
   return (
     <>
       <View style={styles.contenido}>
-        <Animacion1 
         
-        />
+        <View style={styles.animacion}>
+          <Animacion1 />
+        </View>
+
+        <View style={styles.animacion}>
+          <Animacion2/>
+        </View>
+        
       </View>
     </>
   );
@@ -25,7 +32,11 @@ const App = () => {
 
 const styles = StyleSheet.create({
   contenido:{
-    marginTop: 100
+    marginTop: 100,
+    paddingVertical: 50
+  },
+  animacion:{
+    paddingVertical: 50
   }
 });
 
